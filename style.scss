@@ -1,3 +1,72 @@
-body {
-    background-color: red;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cinzanav:#F8F5FF;
+  --black:#000;
+  --roxobotao:#845EF7;
+  --branco: #FFF;
+  --cinzasobre:#FAFAFA;
+  --borda:#D3D7DB;
+  --pretoinout:#30373E;
+  --cinzaplace:#ADB5BD;
+  --roxoservicos:#5A27F2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 0px 0px 32px 32px; 
+}
+
+section {
+    padding: 15px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+font-size: 32px;
+font-weight: 400;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 180%; 
+letter-spacing: 0.14px;
+}
+
+.menu {
+    display:none;
+    flex-direction:column;
+    gap:10px;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+header button {
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.projetos-container {
+    background-image:url("./public/assets/projetos/foto.png");
+    background-size: cover;
+}
+
+.projetos-texto {
+    margin: 15px 20px;
 }

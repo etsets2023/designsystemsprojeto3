@@ -3,22 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <title>Design Systems</title>
 </head>
 <body>
 
     <header>
-        <img src="./assets/header/Menu mobile.svg" alt="">
-        <div class="header-botoes">
-            <button>Sobre nós</button>
-            <button>Como trabalhamos</button>
-            <button>Vantagens</button>
-            <button>Serviços</button>
-            <button>Contatos</button>
+        <div class="header-hambebot">
+           <img class="hamburger" src="./assets/header/Menu mobile.svg" alt="" onclick="changeMenu()">
+           <div class="menu" id="menu">
+             <button>Sobre nós</button>
+             <button>Como trabalhamos</button>
+             <button>Vantagens</button>
+             <button>Serviços</button>
+             <button>Contatos</button>
+           </div>
         </div>
-
+        <img src="./assets/header/logo.png" alt="">
+        <img src="./assets/header/search mobile.svg" alt="">
     </header>
-    
+
+    <section class="projetos">
+        <div class="projetos-container">
+            <div class="projetos-texto">
+                <h3>Projetos de alta complexidade</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Fazer o cálculo</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <h1>Sobre nós</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </section>
+
+    <section class="profissionais">
+        <div>
+            <img src="./assets/sobre/sobre.png" alt="">
+            <div class="profissionais-texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Mais</button>
+            </div>
+        </div>
+        <div class="profissionais-abas">
+            <button onclick="showConsultoria()">Consultoria</button>
+            <button onclick="showServico()">Serviços</button>
+        </div>
+        <div class="profissionais-consultoria" id="profissionais-consultoria">
+            <img class="dado" src="./assets/sobre/dado.svg" alt="">
+            <h3>Consultoria de arquitetura e decoração</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="profissionais-servico" id="profissionais-servico">
+            <img class="engrenagem" src="./assets/sobre/engrenagem.svg" alt="">
+            <h3>Serviço Arquiteto</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+
+
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/abas.js"></script>
 </body>
 </html>
