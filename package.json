@@ -1,0 +1,15 @@
+{
+  "name": "designsystemsprojeto3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./style.scss:dist/style.css",
+    "dev": "sass --watch --color ./style.scss:dist/style.css"
+  },
+  "author": "Elaine Tavares",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.67.0"
+  }
+}
