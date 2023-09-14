@@ -64,7 +64,7 @@ header button {
 }
 
 .projetos-container {
-  background-image: url("../public/assets/projetos/foto.png");
+  background-image: url("./assets/projetos/foto.png");
   background-size: cover;
   background-attachment: fixed;
   background-position-x: 40%;
