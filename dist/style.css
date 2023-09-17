@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
@@ -21,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  background-color:var(--cinzasobre);
+  background-color: var(--cinzasobre);
   padding: 15px;
   border-radius: 0px 0px 32px 32px;
 }
@@ -50,7 +51,7 @@ p {
   gap: 10px;
 }
 
-.hamburger, .lupa{
+.hamburger, .lupa {
   cursor: pointer;
 }
 
@@ -64,7 +65,7 @@ header button {
 }
 
 .projetos-container {
-  background-image: url("../public/assets/projetos/foto.png");
+  background-image: url("./assets/projetos/foto.png");
   background-size: cover;
   background-attachment: fixed;
   background-position-x: 40%;
@@ -73,9 +74,9 @@ header button {
 }
 
 .projetos h3 {
-font-family: "Montserrat", sans-serif;
-font-size: 24px;
-font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .projetos p {
@@ -88,14 +89,14 @@ font-weight: 800;
   margin-top: 24px;
   margin-bottom: 54px;
   border-radius: 8px;
-background: var(--roxobotao);
-padding: 13px 32px;
-color: var(--branco);
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-border: none;
-cursor: pointer;
+  background: var(--roxobotao);
+  padding: 13px 32px;
+  color: var(--branco);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
 
 .sobre {
@@ -126,22 +127,22 @@ cursor: pointer;
 
 .profissionais button {
   border-radius: 8px;
-border: 1px solid var(--roxobotao);
-padding: 13px 32px;
-width: 260px;
-margin-top: 24px;
-margin-bottom: 40px;
-color: var(--roxobotao);
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-cursor: pointer;
+  border: 1px solid var(--roxobotao);
+  padding: 13px 32px;
+  width: 260px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  color: var(--roxobotao);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .profissionais-abas {
-  margin-top:180px;
+  margin-top: 180px;
   display: flex;
-  gap:10px;
+  gap: 10px;
 }
 
 .profissionais-abas button {
@@ -154,8 +155,8 @@ cursor: pointer;
   align-items: start;
   padding: 15px;
   border-radius: 32px;
-border: 1px solid var(--roxobotao);
-gap: 10px;
+  border: 1px solid var(--roxobotao);
+  gap: 10px;
 }
 
 .dado {
@@ -183,47 +184,47 @@ gap: 10px;
 }
 
 .trabalhamos h3 {
-font-family: "Open Sans", sans-serif;
-font-size: 14px;
-font-weight: 700;
-line-height: 180%; 
-letter-spacing: 0.14px;
-margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 180%;
+  letter-spacing: 0.14px;
+  margin-bottom: 10px;
 }
 
 .trabalhamos-botoes {
   margin-top: 20px;
   display: flex;
-  gap:5px;
+  gap: 5px;
 }
 
-.botao-mais{
+.botao-mais {
   margin-bottom: 54px;
   border-radius: 8px;
-background: var(--roxobotao);
-padding: 13px 32px;
-color: var(--branco);
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-cursor: pointer;
-border: none;
+  background: var(--roxobotao);
+  padding: 13px 32px;
+  color: var(--branco);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
 }
 
 .botao-contrate {
   border-radius: 8px;
-border: 1px solid var(--roxobotao);
-padding: 13px 32px;
-color: var(--roxobotao);
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-height: 44px;
-cursor: pointer;
+  border: 1px solid var(--roxobotao);
+  padding: 13px 32px;
+  color: var(--roxobotao);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  height: 44px;
+  cursor: pointer;
 }
 
 .vantagens {
-  background-color:var(--cinzasobre);
+  background-color: var(--cinzasobre);
   margin-top: -50px;
 }
 
@@ -234,7 +235,7 @@ cursor: pointer;
   gap: 15px;
 }
 
-.vantagens-item{
+.vantagens-item {
   padding: 15px;
   border-radius: 32px;
   border: 1px solid var(--roxobotao);
@@ -242,76 +243,83 @@ cursor: pointer;
   align-items: start;
   gap: 10px;
   background-color: var(--branco);
-  }
+}
 
-  .descricao-detalhe {
-    display: flex;
-    gap: 100px;
-  }
+.descricao-detalhe {
+  display: flex;
+  gap: 100px;
+}
 
-  .item-descricao {
-    padding: 15px;
-    background-color: var(--cinzasobre);
-    border-radius: 0 0 24px 24px;
-    margin-top: -5px;
-  }
+.item-descricao {
+  padding: 15px;
+  background-color: var(--cinzasobre);
+  border-radius: 0 0 24px 24px;
+  margin-top: -5px;
+}
 
-  .item-imagem {
-    width: 100%;
-    border-radius: 24px 24px 0 0;
-    margin-top: 20px;
-  }
+.item-imagem {
+  width: 100%;
+  border-radius: 24px 24px 0 0;
+  margin-top: 20px;
+}
 
-  .servicos h3 {
-    color: var(--roxoservicos);
-  }
+.servicos h3 {
+  color: var(--roxoservicos);
+}
 
-  .seta {
-    cursor: pointer;
-  }
+.seta {
+  cursor: pointer;
+}
 
-  footer {
-    padding: 15px;
-    background-color: var(--black);
-  }
+footer {
+  padding: 15px;
+  background-color: var(--black);
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 15px;
-    margin-top: 20px;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  margin-top: 20px;
+}
 
-  .form-item, select {
-    width: 290px;
-    padding: 14px;
-    border-radius: 8px;
-    background-color:var(--pretoinout);
-    border: none;
-  }
+.form-item, select {
+  width: 290px;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: var(--pretoinout);
+  border: none;
+}
 
-  ::placeholder, select, input[type=date] {
-    color: var(--branco);
-  }
+::placeholder, select, input[type=date] {
+  color: var(--branco);
+}
 
-  input[type=checkbox] {
-    width: 24px;
-    height: 24px;
-  }
+input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+}
 
-  form button {
-    border-radius: 8px;
-background: var(--roxobotao);
-padding: 13px 32px;
-color: var(--branco);
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 700;
-width: 290px;
-border: none;
-margin-bottom: 20px;
-cursor: pointer;
+.form-concluir {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+form button {
+  border-radius: 8px;
+  background: var(--roxobotao);
+  padding: 13px 32px;
+  color: var(--branco);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  width: 290px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 .footer-lista {
@@ -329,15 +337,15 @@ cursor: pointer;
   margin-left: -200px;
 }
 
-span {
+h4 {
+  color: var(--branco);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 180%;
-  letter-spacing: 0.14px;
-  color: var(--branco);
+  line-height: 200%;
+  letter-spacing: 0.16px;
 }
-  
+
 .lista-logo {
   margin-top: 40px;
   margin-left: -170px;
@@ -364,3 +372,300 @@ footer h1, label {
   width: 45px;
   cursor: pointer;
 }
+
+/*ANIMAÇÕES*/
+.hamburger {
+  transition: all 2s;
+}
+.hamburger:hover {
+  filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(240deg) brightness(107%) contrast(106%);
+  cursor: pointer;
+}
+
+.lupa {
+  transition: all 2s;
+}
+.lupa:hover {
+  filter: invert(31%) sepia(78%) saturate(1211%) hue-rotate(240deg) brightness(107%) contrast(106%);
+  cursor: pointer;
+}
+
+.projetos h3, .projetos p {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards, fade-out 4s 1s ease-out forwards infinite;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.projetos button {
+  animation: botprojetos 2s linear infinite;
+}
+
+@keyframes botprojetos {
+  0% {
+    background-color: var(--roxobotao);
+  }
+  100% {
+    background-color: #180749;
+  }
+}
+.profissionais button, .profissionais-abas button {
+  transition: all 2s;
+}
+.profissionais button:hover, .profissionais-abas button:hover {
+  background: var(--roxobotao);
+  color: var(--branco);
+}
+
+.botao-mais {
+  transition: all 2s;
+}
+.botao-mais:hover {
+  border: 2px solid var(--roxoservicos);
+}
+
+.botao-contrate {
+  transition: all 2s;
+}
+.botao-contrate:hover {
+  background: var(--roxobotao);
+  color: var(--branco);
+}
+
+.vantagens-item {
+  transition: all 2s;
+}
+.vantagens-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px 0 var(--roxobotao);
+}
+
+.item-descricao {
+  transition: all 2s;
+}
+.item-descricao:hover {
+  transform: translateY(-20px);
+}
+
+.seta {
+  transition: all 1s;
+}
+.seta:hover {
+  background-color: var(--roxobotao);
+  border-radius: 10px;
+  color: var(--branco);
+  cursor: pointer;
+}
+
+.form-item, select {
+  transition: all 2s;
+}
+.form-item:invalid, select:invalid {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 20px 0 red;
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 20px 0 red;
+  }
+}
+footer button {
+  transition: all 2s;
+}
+footer button:hover {
+  border: 2px solid var(--roxoservicos);
+}
+
+footer p {
+  transition: all;
+}
+footer p:hover {
+  border: 4px solid var(--branco);
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+}
+footer p:active {
+  color: var(--roxoservicos);
+  border: 4px solid var(--roxoservicos);
+  border-left: transparent;
+  border-top: transparent;
+  border-right: transparent;
+}
+
+.footer-social img {
+  transition: all 1s;
+}
+.footer-social img:hover {
+  filter: invert(31%) sepia(78%) saturate(1211%) brightness(107%) contrast(106%);
+}
+
+/*TABLET*/
+@media (min-width: 768px) {
+  section {
+    padding: 24px 50px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+  }
+  header {
+    padding: 24px 50px;
+  }
+  .projetos-texto {
+    margin: 40px 40px;
+  }
+  .projetos h3 {
+    font-size: 72px;
+    width: 400px;
+  }
+  .projetos p {
+    width: 360px;
+    margin-bottom: 20px;
+  }
+  .profissionais-texto {
+    margin-top: -150px;
+    width: 668px;
+    padding: 40px;
+    display: flex;
+  }
+  .profissionais-abas {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .profissionais-abas button {
+    width: 330px;
+  }
+  .profissionais-consultoria, .profissionais-servico {
+    flex-direction: row;
+  }
+  .dado {
+    margin: 0;
+  }
+  .trabalhamos h3 {
+    font-size: 24px;
+  }
+  .vantagens-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 3fr 1fr 3r;
+    grid-template-areas: "globo prancheta" "globo fabrica" "globo fabrica" "grafico cronometro" "aviao globo2" "aviao globo2" "aviao globo2";
+  }
+  .globo {
+    grid-area: globo;
+  }
+  .prancheta {
+    grid-area: prancheta;
+  }
+  .cronometro {
+    grid-area: cronometro;
+  }
+  .grafico {
+    grid-area: grafico;
+  }
+  .aviao {
+    grid-area: aviao;
+  }
+  .fabrica {
+    grid-area: fabrica;
+  }
+  .globo2 {
+    grid-area: globo2;
+  }
+  .servicos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .servicos-item {
+    width: 326px;
+  }
+  .tres {
+    height: 190px;
+  }
+  footer {
+    padding: 50px;
+  }
+  .form-item, select {
+    width: 590px;
+  }
+  .form-concordo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h4 {
+    width: 580px;
+    font-size: 16px;
+  }
+  .footer-lista {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+}
+/*DESKTOP*/
+@media (min-width: 1920px) {
+  section {
+    padding: 50px 75px;
+  }
+  header {
+    padding: 20px 75px;
+    display: grid;
+    grid-template-areas: "logo menu lupa";
+  }
+  .logo {
+    grid-area: logo;
+  }
+  .menu {
+    grid-area: menu;
+  }
+  .lupa {
+    grid-area: lupa;
+  }
+  .hamburger {
+    display: none;
+  }
+  .menu {
+    display: block;
+    margin-right: 800px;
+  }
+  .menu button {
+    margin-left: 20px;
+  }
+  .projetos h3 {
+    width: 837px;
+  }
+  .projetos p {
+    width: 520px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
